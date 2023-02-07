@@ -1,16 +1,19 @@
 <!DOCTYPE html>
 <html>
-  <title>About Us</title>
+  <head>
+    <title>About Us</title>
+    <link rel="stylesheet" href="styles_aboutUs.css">
+  </head>
+
   <body>
     <!-- This is the @head and it will encompass our logo and our navigation bar -->
-    <head>
       <div>
         <table style="width: 100%">
           <tr>
-            <td>
-              <a href="index.html">
-                <img src="assets/logo/logo.jpg" width="100px" alt="" />
-              </a>
+            <td> 
+              <a href="#">
+                <img src="assets/imgs/avataaars (1).svg" width="100px" alt="" />
+              </a> welcome to my Portfolio page 
             </td>
             <td align="right">
               <nav
@@ -29,16 +32,102 @@
           </tr>
         </table>
       </div>
-    </head>
-
+       <hr style="color: lightblue; font: size 10px;">
     <!-- This is our main and it will encompass all our content for the landing page for our site -->
-    <main style="height: 100vh; background-color: aqua">
-      <h1>This is our main About Us</h1>
-    </main>
+    <main style="height: 100vh;">
+    <table>
+      <tr>
+        <td style="padding-left: 20vh; padding-top: 50px">
+          <h1>Mpho Chuene</h1>
+          <p style="width: 85vh;">
+            <h4>Hi there, i am  a Bachelor of Information Technology in Business System graduate from Rosebank College Polokwane.
+            Throughtout my journey at Rosebank College Polokwane, I have managed to achieve the 2022 CLC Deputy President position, volunteer in 
+            as an junior ICT assistant and also volunteer to assist in the information centre. </h4>
+          </p>
+        </td>
+        <td align="right" style="padding-right: 10vh; padding-top: 30px; padding-bottom: 30px; padding-left: 40vh;">
+          <img
+            src="assets/imgs/me.jpeg"
+            alt=""
+            width="300px"
+            height="300px"
+            style="border-radius: 50%; object-fit: cover; border: 5px solid lightblue;"
+          />
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <h3 style="padding-left: 12vh;">
+            Certifications:
+          </h3>
+          <ul style="padding-left: 15vh;">
+            <li>HTML</li>
+            <li>JavaScript Basics</li>
+            <li>SQL</li>
+            <li>MongoDB</li>
+            <li>Introduction to Front-End development </li>
+          </ul>
+        </td>
+      </tr>
+    </table>
+    <div>
+      <h2 style="padding: 0 0 0 80vh;">Skill set</h2>
+    </div>
+   
+    
+    <div class="container">
+      <div class="container__progressbars">
+        <div class="progressbar">
+          <svg class="progressbar__svg">
+            <circle cx="80" cy="80" r="70" class="progressbar__svg-circle circle-html shadow-html"> </circle>
+          </svg>
+          <span class="progressbar__text shadow-html">HTML</span>
+        </div>
+    
+        <div class="progressbar">
+          <svg class="progressbar__svg">
+            <circle cx="80" cy="80" r="70" class="progressbar__svg-circle circle-css shadow-css"> </circle>
+          </svg>
+          <span class="progressbar__text shadow-css">CSS</span>
+        </div>
+    
+        <div class="progressbar">
+          <svg class="progressbar__svg">
+            <circle cx="80" cy="80" r="70" class="progressbar__svg-circle circle-scss shadow-scss"> </circle>
+          </svg>
+          <span class="progressbar__text shadow-scss">bootstrap</span>
+        </div>
+    
+        <div class="progressbar">
+          <svg class="progressbar__svg">
+            <circle cx="80" cy="80" r="70" class="progressbar__svg-circle circle-js shadow-js"> </circle>
+          </svg>
+          <span class="progressbar__text shadow-js">JavaScript</span>
+        </div>
+    
+        <div class="progressbar">
+          <svg class="progressbar__svg">
+            <circle cx="80" cy="80" r="70" class="progressbar__svg-circle circle-ts shadow-ts"> </circle>
+          </svg>
+          <span class="progressbar__text shadow-ts">SQL</span>
+        </div>
+    
+        <div class="progressbar">
+          <svg class="progressbar__svg">
+            <circle cx="80" cy="80" r="70" class="progressbar__svg-circle circle-node shadow-node"> </circle>
+          </svg>
+          <span class="progressbar__text shadow-node">MongoDB</span>
+        </div>
+      </div>
+    
+    </div>
+  </main>
 
     <!-- This is our footer and it will encompass all the quick links on our website.-->
-    <footer>
-      <h1>This is our footer</h1>
+    <footer style="padding-top: 40vh;">
+      <h4 style="padding-left: 70vh; padding-top: 50vh;">Mpho Chuene, Copyright &copy; 2023</h4>
     </footer>
+  </div>
+ </div>
   </body>
 </html>
