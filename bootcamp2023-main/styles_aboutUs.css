@@ -1,7 +1,14 @@
-a {
-    text-decoration: none;
-  }
-  
+nav > a {
+  text-decoration: none;
+  border-radius: 5px;
+  padding: 15px;
+}
+
+nav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
   .social-media-flex {
     display: flex;
   }
@@ -68,6 +75,7 @@ a {
     align-items: center;
     min-height: 100vh;
     background-color: lightblue;
+    padding-bottom: 40vh;
   }
   
   .container__progressbars {
