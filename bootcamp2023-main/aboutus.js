@@ -1,3 +1,76 @@
+     /*     navigation menu of the webpage */
+     const navigation =  '<table style="width: 100%">'+
+     '          <tr>'+
+     '            <td> '+
+     '              <a href="index.html">'+
+     '                <img src="assets/imgs/avataaars (1).svg" width="100px" alt="" />'+
+     '              </a> welcome to my Portfolio page '+
+     '            </td>'+
+     '            <td align="right">'+
+     '              <nav'+
+     '                style="'+
+     '                  margin-right: 50px;'+
+     '                  margin-top: 16px;'+
+     '                  margin-bottom: 16px;'+
+     '                  margin-left: 50px;'+
+     '                "'+
+     '              >'+
+     '                <a href="index.html">Home</a>'+
+     '                <a href="about_us.html" style="margin: 16px">About Us</a>'+
+     '                <a href="contact_us.html">Contact Us</a>'+
+     '              </nav>'+
+     '            </td>'+
+     '          </tr>'+
+     '        </table>';
+
+document.getElementById("nav-container").innerHTML = navigation;
+
+    /*   the aboutMe section of my website */
+
+const aboutMe =  '<table>'+
+'      <tr>'+
+'        <td style="padding-left: 12vh; padding-top: 50px">'+
+'          <h1>Mpho Chuene</h1>'+
+'          <p style="width: 85vh;">'+
+'            <h5 style="font-weight: lighter;">Hi there, i am  a Bachelor of Information Technology in Business System graduate from Rosebank College Polokwane.'+
+'            Throughtout my journey at Rosebank College Polokwane, I have managed to achieve the 2022 CLC Deputy President position, volunteer in '+
+'            as an junior ICT assistant and also volunteer to assist in the information centre. </h5>'+
+'          </p>'+
+'        </td>'+
+'        <td align="right" style="padding-right: 10vh; padding-top: 30px; padding-bottom: 30px; padding-left: 40vh;">'+
+'          <img'+
+'            src="assets/imgs/me.jpeg"'+
+'            alt=""'+
+'            width="300px"'+
+'            height="300px"'+
+'            style="border-radius: 50%; object-fit: cover; border: 5px solid lightblue;"'+
+'          />'+
+'        </td>'+
+'      </tr>'+
+'      <tr>'+
+'        <td>';
+
+document.getElementById("description").innerHTML = aboutMe;
+         
+
+
+          /*  certification section of my website  */
+const mycert =  '<h3 style="padding-left: 12vh;">'+
+'            Certifications:'+
+'          </h3>'+
+'          <ul style="padding-left: 15vh;">'+
+'            <li>HTML</li>'+
+'            <li>JavaScript Basics</li>'+
+'            <li>SQL</li>'+
+'            <li>MongoDB</li>'+
+'            <li>Introduction to Front-End development </li>'+
+'          </ul>'+
+'        </td>'+
+'      </tr>'+
+'</table>';
+
+document.getElementById("certifications").innerHTML = mycert;
+
             /* programming-language skills arrays  */
 
 let skills = new Array (
@@ -69,4 +142,12 @@ const myproject = elementFromHtml(`
   </div>
   `)
 
-document.getElementById('my-proj').appendChild(myproject)
+  document.getElementById('my-proj').appendChild(myproject)
+
+            /*   the footer section of the webpage */
+
+  const footer =  '<footer style="width: 100%; height: 100px; background-color: lightblue; text-align: center;">'+
+  '  <h5 style="padding-top: 25px;"><bold style="margin-right: 5px;">Email: </bold><a href="mailto: Mphochuene42@gmail.com">Mphochuene42@gmail.com</a> <br><br> Created by Mpho Chuene, Copyright &copy; 2023</h5>'+
+  '</footer>';
+
+  document.getElementById("footer-container").innerHTML = footer;
